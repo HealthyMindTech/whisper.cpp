@@ -76,6 +76,10 @@ func (context *context) SetTranslate(v bool) {
 	context.params.SetTranslate(v)
 }
 
+func (context *context) SetNoContext(v bool) {
+	context.params.SetNoContext(v)
+}
+
 // Set speedup flag
 func (context *context) SetSpeedup(v bool) {
 	context.params.SetSpeedup(v)
